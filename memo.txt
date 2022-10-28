@@ -1,0 +1,35 @@
+version controll => rvm
+
+change user
+su - username
+
+brew mac authority error
+https://directori.tistory.com/124
+
+rails environment settings
+https://dev-yakuza.posstree.com/ko/ruby-on-rails/rails-on-mac/
+
+
+rbenv
+
+version checking
+rbenv versions
+
+changing version
+rbenv global 2.7.0
+rbenv rehash
+
+
+rvm
+
+version checking
+rvm list
+
+changing version
+rvm use 2.7.0
+
+
+
+rails new [project name]~
+
+bundle exec rails server
