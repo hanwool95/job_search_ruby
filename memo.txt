@@ -29,7 +29,22 @@ changing version
 rvm use 2.7.0
 
 
-
+#making project
 rails new [project name]~
 
+#run server
 bundle exec rails server
+rails s
+
+#making controller
+rails generate controller [controller name]
+
+#making simple page
+add function in controller
+add erb file in views directory
+add url path in routes.rb
+
+# execute ruby code
+<% %>
+# print ruby var
+<%= %>
