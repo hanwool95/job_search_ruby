@@ -39,6 +39,13 @@ rails s
 #making controller
 rails generate controller [controller name]
 
+#making model
+rails generate model [model name]
+=> model file, migration file, test file
+
+#migrate model
+rake db:migrate
+
 #making simple page
 add function in controller
 add erb file in views directory
