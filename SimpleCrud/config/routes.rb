@@ -8,8 +8,9 @@ Rails.application.routes.draw do
   post '/calculator/result' => 'calculator#result'
   
   get '/plus/:num1/:num2' => "calculator#plus"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  
+  get '/board' => "board#index"
+  get '/board/write' => "board#write"
+  post '/board' => "board#create"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
 end
