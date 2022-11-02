@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   get '/board/write' => "board#write"
   post '/board' => "board#create"
 
+  get '/board/:id' => "board#show"
+
 end
