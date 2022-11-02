@@ -1,9 +1,11 @@
 
 <% @posts.each do |post| %>
 
-<a href="/board">
+<a href="/board"> 
 <%= post.title %><br>
 <%= post.content%>
+<a href="board/modify/<%=post.id %>">수정하기</a>
+<a href="board/delete/<%=post.id %>">삭제하기</a>
 <hr>
 <br>
 <% end %>

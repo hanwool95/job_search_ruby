@@ -20,4 +20,22 @@ class BoardController < ApplicationController
         redirect_to '/board'
     end
 
+    def modify
+        @post = Post.find(params[:post_id])
+    end
+
+    def update
+        post = Post.find(params[:post_id])
+        post.title = params[:title]
+        post.content = params[:content]
+        post.save
+
+        redirect_back_or_to "/board"
+    end
+
+    def delete
+        Post.destroy(params[:post_id])
+
+        redirect_back_or_to "/board"
+    end
 end

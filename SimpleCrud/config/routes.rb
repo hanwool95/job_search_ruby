@@ -11,8 +11,14 @@ Rails.application.routes.draw do
   
   get '/board' => "board#index"
   get '/board/write' => "board#write"
+  get '/board/modify/:post_id' => 'board#modify'
+  post '/board/update/:post_id' => 'board#update'
   post '/board' => "board#create"
 
   get '/board/:id' => "board#show"
+
+  get '/board/delete/:post_id' => 'board#delete'
+  
+
 
 end
