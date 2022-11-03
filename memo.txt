@@ -69,3 +69,6 @@ making automatic crub by resources
 making api
 https://guides.rubyonrails.org/api_app.html
 rails new [app name] --api
+
+creating a rest api with rails
+https://medium.com/@oliver.seq/creating-a-rest-api-with-rails-2a07f548e5dc
