@@ -55,3 +55,12 @@ add url path in routes.rb
 <% %>
 # print ruby var
 <%= %>
+
+#Scaffolding
+rails g scaffold [Model name] [column name]:[column type] ...
+rails g scaffold Post content:string title:string
+
+
+resources in routes.rb
+https://guides.rubyonrails.org/routing.html 2.2
+making automatic crub by resources

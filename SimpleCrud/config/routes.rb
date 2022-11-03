@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   # when root(get '/' =>), HomeController to index action.
   root 'home#index'
   get '/home' => 'home#hi'
