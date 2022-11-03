@@ -5,31 +5,31 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-SimpleCrud/.bundle
+*/.bundle
 
 # Ignore the default SQLite database.
-SimpleCrud/db/*.sqlite3
+*/db/*.sqlite3
 SimpleCrud/db/*.sqlite3-*
 
 # Ignore all logfiles and tempfiles.
-SimpleCrud/log/*
-SimpleCrud/tmp/*
-SimpleCrud!/log/.keep
-SimpleCrud!/tmp/.keep
+*/log/*
+*/tmp/*
+*!/log/.keep
+*!/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-SimpleCrud/tmp/pids/*
-SimpleCrud!/tmp/pids/
-SimpleCrud!/tmp/pids/.keep
+*/tmp/pids/*
+*!/tmp/pids/
+*!/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-SimpleCrud/storage/*
-SimpleCrud!/storage/.keep
-SimpleCrud/tmp/storage/*
-SimpleCrud!/tmp/storage/
-SimpleCrud!/tmp/storage/.keep
+*/storage/*
+*!/storage/.keep
+*/tmp/storage/*
+*!/tmp/storage/
+*!/tmp/storage/.keep
 
-SimpleCrud/public/assets
+*/public/assets
 
 # Ignore master key for decrypting credentials and more.
-SimpleCrud/config/master.key
+*/config/master.key

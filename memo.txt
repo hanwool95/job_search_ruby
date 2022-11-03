@@ -64,3 +64,8 @@ rails g scaffold Post content:string title:string
 resources in routes.rb
 https://guides.rubyonrails.org/routing.html 2.2
 making automatic crub by resources
+
+
+making api
+https://guides.rubyonrails.org/api_app.html
+rails new [app name] --api
