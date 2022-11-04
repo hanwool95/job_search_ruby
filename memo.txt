@@ -56,6 +56,15 @@ add url path in routes.rb
 # print ruby var
 <%= %>
 
+
+
+#checking routes of rails
+rails routes
+
+# open rails console
+rails c
+
+
 #Scaffolding
 rails g scaffold [Model name] [column name]:[column type] ...
 rails g scaffold Post content:string title:string
